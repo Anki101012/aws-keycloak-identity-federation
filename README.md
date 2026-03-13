@@ -10,6 +10,7 @@ This project demonstrates federated authentication between AWS IAM Identity Cent
 ## Authentication (SAML)
 Users authenticate through Keycloak, which acts as the Identity Provider (IdP) for AWS IAM Identity Center.
 
+
 Flow: User → AWS Access Portal → AWS IAM Identity Center → Keycloak → FreeIPA LDAP
 
 ## Identity Provisioning (SCIM)
