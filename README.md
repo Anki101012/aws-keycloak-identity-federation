@@ -7,7 +7,7 @@ This project demonstrates federated authentication between AWS IAM Identity Cent
 ![Architecture Diagram](architecture-diagram/architecture-diagram.png)
 
 ### Authentication (SAML)
-Users authenticate through **Keycloak**, which acts as the Identity Provider (IdP) for AWS IAM Identity Center.
+Users authenticate through Keycloak, which acts as the Identity Provider (IdP) for AWS IAM Identity Center.
 Flow: User → AWS Access Portal → AWS IAM Identity Center → Keycloak → FreeIPA LDAP
 
 ### Identity Provisioning (SCIM)
@@ -26,7 +26,7 @@ Flow: FreeIPA LDAP → Keycloak → SCIM Sync Script → AWS SCIM API → AWS Id
 ---
 
 ## Keycloak Configuration
-Keycloak is configured as the **SAML Identity Provider for AWS IAM Identity Center**.
+Keycloak is configured as the SAML Identity Provider for AWS IAM Identity Center.
 Screenshots of configuration:
 ![Keycloak SAML Client](keycloak-config/screenshots/keycloak-ldap-provider.png) 
 ![Keycloak LDAP](keycloak-config/screenshots/keycloak-ldap-settings.png)
@@ -41,12 +41,12 @@ AWS IAM Identity Center is configured with:
 Example configuration:
 ![AWS Identity Center](aws-config/screenshots/aws-identity-center-saml.png)
 
-## Users authenticate through the **AWS Access Portal**.
+## **Users authenticate through the **AWS Access Portal**.
 ![AWS Access Portal](aws-config/screenshots/aws-access-portal-login.png)
 ---
 
 ## SCIM Automation
-User provisioning is automated using a Python script that interacts with the **AWS SCIM API.
+User provisioning is automated using a Python script that interacts with the AWS SCIM API.
 Directory:
 scim-sync/
 Files:
