@@ -5,6 +5,7 @@
 ## Overview
 
 
+
 This project demonstrates federated authentication between AWS IAM Identity Center and Keycloak using SAML 2.0, with automated identity provisioning via the AWS SCIM API. The architecture integrates AWS IAM Identity Center, Keycloak, and FreeIPA LDAP to provide centralized authentication and automated user lifecycle management.
 ---
 
