@@ -40,7 +40,7 @@ AWS IAM Identity Center is configured with:
 Example configuration:
 ![AWS Identity Center](aws-config/screenshots/aws-identity-center-saml.png)
 ---
-## Users authenticate through the **AWS Access Portal
+## Users authenticate through the AWS Access Portal
 ![AWS Access Portal](aws-config/screenshots/aws-access-portal-login.png)
 ---
 
