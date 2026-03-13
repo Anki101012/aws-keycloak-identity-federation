@@ -16,6 +16,7 @@ Flow: User → AWS Access Portal → AWS IAM Identity Center → Keycloak → Fr
 
 
 User/group provisioning into AWS Identity Center is automated using the SCIM API.
+
 Flow: FreeIPA LDAP → Keycloak → SCIM Sync Script → AWS SCIM API → AWS Identity Center.
 ---
 
