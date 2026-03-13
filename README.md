@@ -1,5 +1,5 @@
 
-# aws-keycloak-identity-federation
+# AWS Identity Federation with Keycloak
 
 
 ## Overview
