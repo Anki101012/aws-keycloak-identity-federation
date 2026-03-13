@@ -48,8 +48,9 @@ Example configuration:
 
 ## SCIM Automation
 User provisioning is automated using a Python script that interacts with the AWS SCIM API.
+
 Directory:
-- scim-sync/
+- scim-sync
 Files:
 - sync.py
 - env.sh
