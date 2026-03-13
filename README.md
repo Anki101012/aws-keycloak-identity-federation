@@ -38,9 +38,10 @@ Flow: FreeIPA LDAP → Keycloak → SCIM Sync Script → AWS SCIM API → AWS Id
 ---
 
 ## Keycloak Configuration
-Keycloak is configured as the SAML Identity Provider for AWS IAM Identity Center.
 
+Keycloak is configured as the SAML Identity Provider for AWS IAM Identity Center.
 Screenshots of configuration:
+
 ![Keycloak SAML Client](keycloak-config/screenshots/keycloak-ldap-provider.png) 
 ![Keycloak LDAP](keycloak-config/screenshots/keycloak-ldap-settings.png)
 ---
