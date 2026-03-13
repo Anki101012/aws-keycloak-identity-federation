@@ -13,8 +13,8 @@ Users authenticate through Keycloak, which acts as the Identity Provider (IdP) f
 Flow: User → AWS Access Portal → AWS IAM Identity Center → Keycloak → FreeIPA LDAP
 
 ## Identity Provisioning (SCIM)
-User/group provisioning into AWS Identity Center is automated using the SCIM API.
 
+User/group provisioning into AWS Identity Center is automated using the SCIM API.
 Flow: FreeIPA LDAP → Keycloak → SCIM Sync Script → AWS SCIM API → AWS Identity Center.
 ---
 
